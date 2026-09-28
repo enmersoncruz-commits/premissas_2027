@@ -67,8 +67,8 @@ export const SlideEixo1: React.FC = () => {
             </ul>
           </div>
 
-          <div className="mt-4 pt-3 border-t border-[#B4B4B4]/30 text-[11px] text-[#323232]/80 italic">
-            Foco em capacidade produtiva sustentável sem crescimento desordenado e governança de competências críticas.
+          <div className="mt-4 pt-3 border-t border-[#B4B4B4]/30 text-[11px] text-[#323232]/90 italic">
+            <strong>Foco da Superintendência:</strong> Competências técnicas das áreas finalistas, projeto de sucessão, desenvolvimento de líderes, dimensionamento adequado, aproveitamento interno e Projeto Jovem Aprendiz X Carreira.
           </div>
         </div>
 

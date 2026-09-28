@@ -26,9 +26,26 @@ O desdobramento contempla as premissas institucionais:
 | **1.2** | **Promover o bem-estar e segurança do trabalhador** | `P5` + `P7` (Segurança, riscos e sustentabilidade humana) | 1.2, 2.4 | 6 |
 | **1.3** | **Consolidar a diversidade, equidade e inclusão** | `P7` – Pessoas, produtividade e sustentabilidade humana | 1.3 | 3 |
 | **1.4** | **Impulsionar a inovação, modernização e transformação digital** | `P3` + `P7` (Automação, IA, dados e sustentabilidade) | 1.4, 2.3, 2.4 | 4 |
-| **1.5** | **Aprimorar a integração entre assistência, ensino, pesquisa e ecossistema de conhecimento** | `P4` + `P6` (Excelência assistencial, governança e legado) | 1.5 | 1 |
+| **1.5** | **Aprimorar a integração entre assistência, ensino, pesquisa e ecossistema de conhecimento** | `P4` + `P6` (Excelência assistencial, governança e legado) | 1.5 | 1 na Matriz (#24) + 3 transversais |
 
-> **Nota de Governança (P4 e P6):** Para P4 e P6, cuja atuação da Gestão de Pessoas ocorre principalmente por interface institucional no objetivo 1.5, é mantido o indicador de integração já previsto no Planejamento Estratégico, sem criação desnecessária de novas medidas.
+> **Nota de Governança (P4 e P6):** Para P4 e P6, cuja atuação da Gestão de Pessoas ocorre principalmente por interface institucional no objetivo 1.5, é mantido o indicador de integração já previsto no Planejamento Estratégico, sem criação desnecessária de novas medidas. O documento vincula ao Eixo 1.5 o indicador estruturante de integração e as medidas transversais de automação/IA, redução de retrabalho e desempenho orçamentário.
+
+---
+
+## 🎯 Objetivos e Focos Prioritários da Superintendência (Ciclo 2027)
+
+Revisão e endereçamento detalhado das prioridades estratégicas da Superintendência integradas nos respectivos eixos e indicadores:
+
+1. **Mapeamento de competências técnicas das áreas finalistas:** Integrado ao *Eixo 1.1* e mensurado pelo indicador `#12 (IDCC - Índice de Desempenho em Competências Críticas)` e `#1 (% de Posições/Competências Críticas com Cobertura Adequada)`.
+2. **Dimensionamento adequado:** Eixo estruturante no *Eixo 1.1*, conectado ao `#2 (Índice de Produtividade da Força de Trabalho)` e `#6 (% de Vagas Fechadas no Prazo)`.
+3. **Projeto de sucessão:** Diretriz prioritária no *Eixo 1.1*, vinculada à preparação de quadros futuros e continuidade operacional.
+4. **Desenvolvimento de Líderes:** Prioridade no *Eixo 1.1* e *Eixo 1.3*, monitorada pelo indicador `#10 (Indicadores de Desenvolvimento de Liderança)`.
+5. **Aproveitamento interno:** Prioridade no *Eixo 1.1*, monitorada pelo indicador `#5 (% de Aproveitamento Interno Corporativo)` e retenção global (`#3 % Turnover Global`).
+6. **Projeto Jovem Aprendiz X Carreira:** Prioridade de atração, inclusão inicial e trilhas de desenvolvimento no *Eixo 1.1*.
+7. **Mapeamento de riscos psicossociais:** Foco central no *Eixo 1.2*, articulado com o indicador `#18 (% de Alcance do Movimento Mente em Foco)` e mitigação de riscos humanos.
+8. **Absenteísmos por faltas injustificadas e afastamentos:** Atuação preventiva e corretiva no *Eixo 1.2*, monitorada pelo indicador `#13 (Absenteísmo Global)` e `#14 (Absenteísmo por Atestado Médico/Odontológico Global)`.
+9. **Ampliação / contratação PCD e outros grupos e afinidades:** Foco estruturante no *Eixo 1.3*, monitorado pelo indicador `#19 (% de PcD Institucional)`, clima (`#16`) e representatividade.
+10. **Automação do processo de liberação / pagamento de horas extras:** Prioridade de eficiência no *Eixo 1.4*, conectada diretamente a `#20 (Iniciativas de Automação/IA com Benefício Comprovado)`, `#21 (Horas de Capacidade Liberadas)`, `#22 (Redução de Retrabalho)` e `#23 (Desempenho Orçamentário)`.
 
 ---
 

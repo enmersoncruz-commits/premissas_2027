@@ -16,6 +16,7 @@ export interface EixoEstrategico {
   objetivosEstrategicos: string[];
   prioridades2027: string;
   prioridadesList: string[];
+  iniciativasPrioritarias: string[];
   indicadoresNomes: string[];
   notaGovernança?: string;
   destaque: string;
@@ -88,15 +89,24 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
       '2.3 Potencializar a performance das unidades de negócio',
       '4.1 Assegurar a sustentabilidade econômica, social e ambiental'
     ],
-    prioridades2027: 'Mapeamento de posições e competências críticas; dimensionamento adequado; ampliação da capacidade produtiva sem crescimento desordenado do quadro; desenvolvimento de competências e lideranças; sucessão; movimentação e aproveitamento interno; experiência, desempenho e retenção.',
+    prioridades2027: 'Mapeamento de posições e competências críticas, com mapeamento das competências técnicas das áreas finalísticas; dimensionamento adequado; ampliação da capacidade produtiva sem crescimento desordenado do quadro; desenvolvimento de competências e lideranças, com foco no desenvolvimento de líderes; projeto de sucessão; projeto Jovem Aprendiz x Carreira; movimentação e aproveitamento interno; experiência, desempenho e retenção.',
     prioridadesList: [
-      'Mapeamento de posições e competências críticas',
+      'Mapeamento de posições e competências críticas, com mapeamento das competências técnicas das áreas finalísticas',
       'Dimensionamento adequado',
       'Ampliação da capacidade produtiva sem crescimento desordenado do quadro',
-      'Desenvolvimento de competências e lideranças',
-      'Sucessão',
+      'Desenvolvimento de competências e lideranças, com foco no desenvolvimento de líderes',
+      'Projeto de sucessão',
+      'Projeto Jovem Aprendiz x Carreira',
       'Movimentação e aproveitamento interno',
       'Experiência, desempenho e retenção'
+    ],
+    iniciativasPrioritarias: [
+      'Mapeamento das competências técnicas das áreas finalísticas',
+      'Projeto Jovem Aprendiz x Carreira',
+      'Dimensionamento adequado',
+      'Projeto de sucessão',
+      'Desenvolvimento de líderes',
+      'Movimentação e aproveitamento interno'
     ],
     indicadoresNomes: [
       '% DE POSIÇÕES/COMPETÊNCIAS CRÍTICAS COM COBERTURA ADEQUADA',
@@ -112,7 +122,7 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
       'CUMPRIMENTO DE PLANO DE TREINAMENTO SETORIAIS',
       'ÍNDICE DE DESEMPENHO EM COMPETÊNCIAS CRÍTICAS (IDCC)'
     ],
-    destaque: 'Foco na produtividade qualificada, sucessão e sustentabilidade financeira do quadro.'
+    destaque: 'Foco na produtividade qualificada, competências finalísticas, sucessão, carreira e sustentabilidade financeira do quadro.'
   },
   {
     id: '1.2',
@@ -124,12 +134,18 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
       '1.2 Promover o bem-estar e segurança do trabalhador',
       '2.4 Atuar com excelência, segurança e qualidade.'
     ],
-    prioridades2027: 'Fortalecimento das ações preventivas de saúde e segurança; atuação sobre absenteísmo e afastamentos; identificação e tratamento de riscos relacionados às pessoas; integração de dados de saúde, segurança, clima e absenteísmo.',
+    prioridades2027: 'Fortalecimento das ações preventivas de saúde e segurança; atuação sobre absenteísmo e afastamentos, incluindo o absenteísmo por faltas injustificadas; identificação e tratamento de riscos relacionados às pessoas, com mapeamento de riscos psicossociais; integração de dados de saúde, segurança, clima e absenteísmo.',
     prioridadesList: [
       'Fortalecimento das ações preventivas de saúde e segurança',
-      'Atuação sobre absenteísmo e afastamentos',
-      'Identificação e tratamento de riscos relacionados às pessoas',
+      'Atuação sobre absenteísmo e afastamentos, incluindo o absenteísmo por faltas injustificadas',
+      'Identificação e tratamento de riscos relacionados às pessoas, com mapeamento de riscos psicossociais',
       'Integração de dados de saúde, segurança, clima e absenteísmo'
+    ],
+    iniciativasPrioritarias: [
+      'Mapeamento de riscos psicossociais',
+      'Absenteísmo por faltas injustificadas',
+      'Integração de dados de saúde, segurança, clima e absenteísmo',
+      'Alcance do Movimento Mente em Foco'
     ],
     indicadoresNomes: [
       'EFETIVIDADE DE BEM-ESTAR E SEGURANÇA',
@@ -139,7 +155,7 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
       'ACIDENTES DO TRABALHO SCBH',
       '% DE ALCANCE DO MOVIMENTO MENTE EM FOCO'
     ],
-    destaque: 'Prevenção ativa, saúde integral, mitigação de riscos humanos e mitigação de absenteísmo.'
+    destaque: 'Prevenção ativa, saúde integral, mitigação de riscos psicossociais e combate às faltas injustificadas.'
   },
   {
     id: '1.3',
@@ -150,19 +166,25 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
     objetivosEstrategicos: [
       '1.3 Consolidar a diversidade, equidade e inclusão.'
     ],
-    prioridades2027: 'Fortalecimento da diversidade, equidade e inclusão; acompanhamento da representatividade; ampliação da inclusão de pessoas com deficiência; conexão da DEI com desenvolvimento e retenção.',
+    prioridades2027: 'Fortalecimento da diversidade, equidade e inclusão; acompanhamento da representatividade; ampliação da inclusão e contratação de pessoas com deficiência (PCD) e de outros grupos e afinidades; conexão da DEI com desenvolvimento, aproveitamento interno e retenção.',
     prioridadesList: [
       'Fortalecimento da diversidade, equidade e inclusão',
       'Acompanhamento da representatividade',
-      'Ampliação da inclusão de pessoas com deficiência',
-      'Conexão da DEI com desenvolvimento e retenção'
+      'Ampliação da inclusão e contratação de pessoas com deficiência (PCD) e de outros grupos e afinidades',
+      'Conexão da DEI com desenvolvimento, aproveitamento interno e retenção'
+    ],
+    iniciativasPrioritarias: [
+      'Ampliação e contratação de PCD',
+      'Inclusão de outros grupos e afinidades',
+      'Acompanhamento da representatividade',
+      'Conexão da DEI com aproveitamento interno e retenção'
     ],
     indicadoresNomes: [
       '% DE PCD INSTITUCIONAL',
       'INDICADORES DE DESENVOLVIMENTO DE LIDERANÇA',
       'CLIMA ORGANIZACIONAL'
     ],
-    destaque: 'Representatividade conectada à retenção e desenvolvimento de lideranças inclusivas.'
+    destaque: 'Representatividade conectada à inclusão PcD, grupos e afinidades, aproveitamento interno e retenção.'
   },
   {
     id: '1.4',
@@ -175,14 +197,21 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
       '2.3 Potencializar a performance das unidades de negócio',
       '2.4 Atuar com excelência, segurança e qualidade.'
     ],
-    prioridades2027: 'Otimização de processos; ampliação do uso de automação e IA; redução de retrabalho; melhoria da experiência nos processos de RH; uso de dados para decisões; mensuração dos ganhos gerados pela transformação.',
+    prioridades2027: 'Otimização de processos; ampliação do uso de automação e IA; automação do processo de liberação e pagamento de horas extras; redução de retrabalho; melhoria da experiência nos processos de RH; uso de dados para decisões; mensuração dos ganhos gerados pela transformação.',
     prioridadesList: [
       'Otimização de processos',
       'Ampliação do uso de automação e IA',
+      'Automação do processo de liberação e pagamento de horas extras',
       'Redução de retrabalho',
       'Melhoria da experiência nos processos de RH',
       'Uso de dados para decisões',
       'Mensuração dos ganhos gerados pela transformação'
+    ],
+    iniciativasPrioritarias: [
+      'Automação do processo de liberação e pagamento de horas extras',
+      'Ampliação do uso de automação e IA',
+      'Redução de retrabalho nos processos priorizados',
+      'Liberação de horas de capacidade'
     ],
     indicadoresNomes: [
       '% DE INICIATIVAS DE AUTOMAÇÃO/IA COM BENEFÍCIO MENSURADO E COMPROVADO',
@@ -190,7 +219,7 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
       '% DE REDUÇÃO DE RETRABALHO NOS PROCESSOS PRIORIZADOS',
       '% DE DESEMPENHO ORÇAMENTÁRIO'
     ],
-    destaque: 'Ganhos mensurados de capacidade, redução de retrabalho e rigor orçamentário via tecnologia.'
+    destaque: 'Automação de horas extras, ampliação de IA com benefício comprovado e controle orçamentário.'
   },
   {
     id: '1.5',
@@ -201,17 +230,32 @@ export const EIXOS_ESTRATEGICOS: EixoEstrategico[] = [
     objetivosEstrategicos: [
       '1.5 Aprimorar a integração entre assistência, ensino, pesquisa e o ecossistema de conhecimento.'
     ],
-    prioridades2027: 'Atuação integrada com as áreas responsáveis por assistência, ensino e pesquisa; fortalecimento da governança da integração; conexão entre pessoas, competências e o ecossistema de conhecimento.',
+    prioridades2027: 'Atuação integrada com as áreas responsáveis por assistência, ensino e pesquisa; fortalecimento da governança da integração; conexão entre pessoas, competências e o ecossistema de conhecimento; mapeamento das competências técnicas das áreas finalísticas; integração entre formação e carreira por meio do projeto Jovem Aprendiz x Carreira; desenvolvimento de líderes; estruturação do projeto de sucessão; e fortalecimento do aproveitamento interno como mecanismo de mobilidade, desenvolvimento e retenção.',
     prioridadesList: [
       'Atuação integrada com as áreas responsáveis por assistência, ensino e pesquisa',
       'Fortalecimento da governança da integração',
-      'Conexão entre pessoas, competências e o ecossistema de conhecimento'
+      'Conexão entre pessoas, competências e o ecossistema de conhecimento',
+      'Mapeamento das competências técnicas das áreas finalísticas',
+      'Integração entre formação e carreira por meio do projeto Jovem Aprendiz x Carreira',
+      'Desenvolvimento de líderes',
+      'Estruturação do projeto de sucessão',
+      'Fortalecimento do aproveitamento interno como mecanismo de mobilidade, desenvolvimento e retenção'
+    ],
+    iniciativasPrioritarias: [
+      'Mapeamento das competências técnicas das áreas finalísticas',
+      'Projeto Jovem Aprendiz x Carreira (formação e carreira)',
+      'Estruturação do projeto de sucessão e desenvolvimento de líderes',
+      'Fortalecimento do aproveitamento interno e mobilidade',
+      'Governança da integração com assistência, ensino e pesquisa'
     ],
     indicadoresNomes: [
-      'ÍNDICE DE INTEGRAÇÃO ENTRE ASSISTÊNCIA, ENSINO, PESQUISA E ECOSSISTEMA DE CONHECIMENTO (já em estruturação)'
+      'ÍNDICE DE INTEGRAÇÃO ENTRE ASSISTÊNCIA, ENSINO, PESQUISA E ECOSSISTEMA DE CONHECIMENTO (já em estruturação)',
+      'HORAS DE CAPACIDADE LIBERADAS POR AUTOMAÇÃO/IA',
+      '% DE REDUÇÃO DE RETRABALHO NOS PROCESSOS PRIORIZADOS',
+      '% DE DESEMPENHO ORÇAMENTÁRIO'
     ],
     notaGovernança: 'Para P4 e P6, cuja atuação da Gestão de Pessoas ocorre principalmente por interface institucional no objetivo 1.5, é mantido o indicador de integração já previsto no Planejamento Estratégico, sem criação desnecessária de novas medidas.',
-    destaque: 'Interface institucional e governança compartilhada no ecossistema do conhecimento.'
+    destaque: 'Articulação institucional no ecossistema de conhecimento, unindo formação, sucessão, liderança e mobilidade.'
   }
 ];
 

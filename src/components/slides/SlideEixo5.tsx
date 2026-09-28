@@ -78,33 +78,51 @@ export const SlideEixo5: React.FC = () => {
           </div>
         </div>
 
-        {/* Right Column: Indicador & Governança (6 cols) */}
-        <div className="lg:col-span-6 flex flex-col justify-between space-y-4">
-          {/* Indicador Card */}
-          <div className="p-5 bg-white rounded-xl border-2 border-[#FF0032] shadow-xs">
-            <div className="flex items-center justify-between gap-1 mb-2">
+        {/* Right Column: Indicadores & Governança (6 cols) */}
+        <div className="lg:col-span-6 flex flex-col justify-between space-y-3">
+          {/* Indicador Principal Card */}
+          <div className="p-4 bg-white rounded-xl border-2 border-[#FF0032] shadow-xs">
+            <div className="flex items-center justify-between gap-1 mb-1.5">
               <span className="text-xs font-mono font-bold text-[#FF0032] bg-[#FF0032]/10 px-2 py-0.5 rounded">
-                Indicador #{indicador.id}
+                Indicador Estruturante #{indicador.id}
               </span>
               <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-zinc-100 text-zinc-800">
                 {indicador.perspectiva}
               </span>
             </div>
-            <h4 className="text-sm font-bold text-[#323232] leading-snug mb-2">
+            <h4 className="text-xs sm:text-sm font-bold text-[#323232] leading-snug mb-1.5">
               {indicador.nome}
             </h4>
-            <div className="flex items-center justify-between text-xs text-[#A3A3A3] pt-2 border-t border-zinc-100">
+            <div className="flex items-center justify-between text-[11px] text-[#A3A3A3] pt-1.5 border-t border-zinc-100">
               <span>Premissa: {indicador.premissa2027}</span>
               <span className="font-medium text-[#323232]">Prioridade: 1.5 – Integração, governança e conhecimento</span>
             </div>
           </div>
 
+          {/* Indicadores Conectados no Documento para o Eixo 1.5 */}
+          <div className="p-3 bg-[#F8F9FA] rounded-xl border border-[#B4B4B4]/40">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-[#323232] block mb-1.5">
+              Indicadores Conectados no Eixo 1.5 (Conforme Documento Oficial):
+            </span>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-1.5 text-[10px]">
+              <div className="p-1.5 bg-white rounded border border-[#B4B4B4]/20 text-[#323232] font-medium leading-tight">
+                • HORAS DE CAPACIDADE LIBERADAS POR AUTOMAÇÃO/IA
+              </div>
+              <div className="p-1.5 bg-white rounded border border-[#B4B4B4]/20 text-[#323232] font-medium leading-tight">
+                • % DE REDUÇÃO DE RETRABALHO NOS PROCESSOS PRIORIZADOS
+              </div>
+              <div className="p-1.5 bg-white rounded border border-[#B4B4B4]/20 text-[#323232] font-medium leading-tight">
+                • % DE DESEMPENHO ORÇAMENTÁRIO
+              </div>
+            </div>
+          </div>
+
           {/* Racional de Preservação Exclusivo P4 + P6 */}
-          <div className="p-4 bg-[#323232] text-white rounded-xl border border-black/10">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#FF0032] block mb-1">
+          <div className="p-3.5 bg-[#323232] text-white rounded-xl border border-black/10">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-[#FF0032] block mb-1">
               Diretriz de Racionalidade de Medidas
             </span>
-            <p className="text-xs text-[#B4B4B4] leading-relaxed">
+            <p className="text-[11px] text-[#B4B4B4] leading-relaxed">
               &quot;Para P4 e P6, cuja atuação da Gestão de Pessoas ocorre principalmente por interface institucional no objetivo 1.5, é mantido o indicador de integração já previsto no Planejamento Estratégico, sem criação desnecessária de novas medidas.&quot;
             </p>
           </div>

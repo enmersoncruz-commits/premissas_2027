@@ -67,8 +67,8 @@ export const SlideEixo4: React.FC = () => {
             </ul>
           </div>
 
-          <div className="mt-4 pt-3 border-t border-[#B4B4B4]/30 text-[11px] text-[#323232]/80 italic">
-            Foco na mensuração dos ganhos gerados pela transformação, liberação efetiva de capacidade e disciplina orçamentária.
+          <div className="mt-4 pt-3 border-t border-[#B4B4B4]/30 text-[11px] text-[#323232]/90 italic">
+            <strong>Foco da Superintendência:</strong> Automação do processo de liberação e pagamento de horas extras, ampliação de IA com benefício mensurado e liberação de capacidade.
           </div>
         </div>
 

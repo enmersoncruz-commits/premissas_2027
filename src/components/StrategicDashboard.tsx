@@ -489,6 +489,22 @@ export const StrategicDashboard: React.FC<StrategicDashboardProps> = ({
                     </ul>
                   </div>
 
+                  {/* Foco e Iniciativas da Superintendência */}
+                  {eixo.iniciativasPrioritarias && eixo.iniciativasPrioritarias.length > 0 && (
+                    <div className="mb-4 p-3 bg-[#FF0032]/5 rounded-xl border border-[#FF0032]/20">
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-[#FF0032] block mb-1.5">
+                        Iniciativas Prioritárias da Superintendência:
+                      </span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {eixo.iniciativasPrioritarias.map((inic, idx) => (
+                          <span key={idx} className="text-[10px] font-semibold text-[#323232] bg-white px-2 py-0.5 rounded border border-[#B4B4B4]/30">
+                            {inic}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                   {/* Indicadores List */}
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#A3A3A3] block mb-1.5">

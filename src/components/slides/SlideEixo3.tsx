@@ -67,8 +67,8 @@ export const SlideEixo3: React.FC = () => {
             </ul>
           </div>
 
-          <div className="mt-6 pt-4 border-t border-[#B4B4B4]/30 text-xs text-[#323232]/80 leading-relaxed">
-            A inclusão é tratada de forma estruturante e conectada diretamente com a retenção, desenvolvimento profissional e clima.
+          <div className="mt-6 pt-4 border-t border-[#B4B4B4]/30 text-xs text-[#323232]/90 leading-relaxed italic">
+            <strong>Foco da Superintendência:</strong> Ampliação e contratação de PcD institucional, acolhimento e valorização de grupos de afinidades, e liderança inclusiva integrada ao clima organizacional.
           </div>
         </div>
 

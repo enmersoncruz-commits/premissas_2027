@@ -67,8 +67,8 @@ export const SlideEixo2: React.FC = () => {
             </ul>
           </div>
 
-          <div className="mt-4 pt-3 border-t border-[#B4B4B4]/30 text-[11px] text-[#323232]/80 italic">
-            Conexão direta entre saúde preventiva, redução de absenteísmo, segurança operacional e sustentabilidade humana.
+          <div className="mt-4 pt-3 border-t border-[#B4B4B4]/30 text-[11px] text-[#323232]/90 italic">
+            <strong>Foco da Superintendência:</strong> Mapeamento de riscos psicossociais, atuação firme sobre absenteísmo por faltas injustificadas e atestados médicos, e prevenção integral (Mente em Foco).
           </div>
         </div>
 
