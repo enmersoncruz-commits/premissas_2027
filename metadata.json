@@ -1,0 +1,6 @@
+{
+  "name": "Premissas Estratégicas 2027 - Gestão de Pessoas | Santa Casa BH",
+  "description": "Apresentação executiva e painel estratégico das Premissas 2027 da Superintendência de Gestão de Pessoas da Santa Casa BH, cobrindo eixos, objetivos, prioridades e os 24 indicadores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
